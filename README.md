@@ -8,3 +8,6 @@ Este repositório reúne meus projetos de estudo e desenvolvimento, abrangendo m
 - **Programação:** Exercícios e aplicações em C, C++, C#, Java, Python.  
 
 O objetivo é organizar e documentar meus estudos e experimentos, aplicando conhecimento em projetos práticos e evoluindo constantemente.
+
+# <a href="projeto001/index.html">PROJETO 1 </a>
+# <a href="projeto002/projeto-v1.0/index.html">PROJETO 2</a> 
