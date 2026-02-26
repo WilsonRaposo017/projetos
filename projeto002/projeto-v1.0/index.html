@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Sucessão</title>
+    <link rel="stylesheet" href="estilos/Proficional.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Calculadora de Uma Sucessão</h1>
+            <p>Insira três frações para verificar PA ou PG</p>
+        </header>
+
+        <form action="cod.php" method="get" class="formulario">
+            <div class="fractions-grid">
+                <!-- Numeradores -->
+                <div class="fraction-box">
+                    <input type="number" name="n1" placeholder="N1" required>
+                </div>
+                <div class="fraction-box">
+                    <input type="number" name="n2" placeholder="N2" required>
+                </div>
+                <div class="fraction-box">
+                    <input type="number" name="n3" placeholder="N3" required>
+                </div>
+                <!-- Denominadores -->
+                <div class="fraction-box">
+                    <input type="number" name="d1" placeholder="D1" required>
+                </div>
+                <div class="fraction-box">
+                    <input type="number" name="d2" placeholder="D2" required>
+                </div>
+                <div class="fraction-box">
+                    <input type="number" name="d3" placeholder="D3" required>
+                </div>
+            </div>
+
+            <button type="submit" class="btn-submit">Calcular</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

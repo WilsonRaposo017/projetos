@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #eceff1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 40px 30px;
+    width: 100%;
+    max-width: 480px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 1.9rem;
+    color: #37474f;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 0.95rem;
+    color: #607d8b;
+    margin-bottom: 25px;
+}
+
+.fractions-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 70px);
+    gap: 12px;
+}
+
+.fraction-box {
+    background-color: #f0f4f8;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease;
+}
+
+.fraction-box input {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #cfd8dc;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #37474f;
+    outline: none;
+    background-color: transparent;
+}
+
+.fraction-box:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+.btn-submit {
+    margin-top: 25px;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background-color: #00796b;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #004d40;
+    transform: translateY(-3px);
+}

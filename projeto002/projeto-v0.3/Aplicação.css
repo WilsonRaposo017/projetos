@@ -1,0 +1,81 @@
+/* Fonte moderna e neutra */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f6fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 480px;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    color: #2f3640;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 0.9rem;
+    color: #718093;
+    margin-bottom: 25px;
+}
+
+.fractions-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 70px);
+    gap: 12px;
+}
+
+.fraction-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f2f6;
+    border-radius: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.fraction-box input {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #dcdde1;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #2f3640;
+}
+
+.fraction-box:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.btn-submit {
+    margin-top: 25px;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: #40739e;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #2f3640;
+}
