@@ -1,14 +1,39 @@
-# Projetos
+# 🚀 Wilson Raposo | Projetos
 
-Este repositório reúne meus projetos de estudo e desenvolvimento, abrangendo múltiplas linguagens e áreas de atuação:
+> Código é prática. Evolução é disciplina.
 
-- **Front-End:** HTML5, CSS3, JavaScript, interfaces e design funcional.  
-- **Back-End:** PHP, Java, Python, APIs e gestão de dados.  
-- **Automação:** Scripts em Python e Batch para otimizar processos e tarefas.  
-- **Programação:** Exercícios e aplicações em C, C++, C#, Java, Python.  
+Este repositório reúne meus projetos de estudo e desenvolvimento, explorando múltiplas linguagens e áreas da programação.
 
-O objetivo é organizar e documentar meus estudos e experimentos, aplicando conhecimento em projetos práticos e evoluindo constantemente.
+---
 
-# <a href="projeto001/index.html">PROJETO 1 </a>
-# <a href="projeto002/projeto-v1.0/index.html">PROJETO 2</a> 
-# <a href="projeto003/index.html">PROJETO 3</a> 
+## 🧠 Áreas de Atuação
+
+### 🎨 Front-End
+HTML5, CSS3, JavaScript  
+Interfaces funcionais e design estruturado.
+
+### ⚙️ Back-End
+PHP, Java, Python  
+APIs, lógica de sistemas e manipulação de dados.
+
+### 🤖 Automação
+Python e Batch Script  
+Scripts para otimização de tarefas.
+
+### 💻 Programação
+C • C++ • C# • Java • Python  
+Exercícios, algoritmos e aplicações práticas.
+
+---
+
+## 📂 Projetos
+
+- <a href="projeto001/index.html">[Projeto 1]</a>
+- <a href="projeto002/projeto-v1.0/index.html">[Projeto 2]</a>
+- <a href="projeto003/index.html">[Projeto 3]</a>
+
+---
+
+## 🎯 Objetivo
+
+Organizar meus estudos, aplicar conhecimento em projetos práticos e evoluir constantemente como desenvolvedor.
