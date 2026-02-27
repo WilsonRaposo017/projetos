@@ -28,9 +28,9 @@ Exercícios, algoritmos e aplicações práticas.
 
 ## 📂 Projetos
 
-- <a href="projeto001/index.html">[Projeto 1]</a>
-- <a href="projeto002/projeto-v1.0/index.html">[Projeto 2]</a>
-- <a href="projeto003/index.html">[Projeto 3]</a>
+- <a href="projeto001/index.html" target="_blank">[Projeto 1]</a>
+- <a href="projeto002/projeto-v1.0/index.html" target="_blank">[Projeto 2]</a>
+- <a href="projeto003/index.html" target="_blank">[Projeto 3]</a>
 
 ---
 
