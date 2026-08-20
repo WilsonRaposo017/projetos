@@ -31,7 +31,7 @@ Exercícios, algoritmos e aplicações práticas.
 - <a href="projeto001/index.html" target="_blank">[Projeto 1]</a>
 - <a href="projeto002/projeto-v1.0/index.html" target="_blank">[Projeto 2]</a>
 - <a href="projeto003/index.html" target="_blank">[Projeto 3]</a>
-- <a href="vendaai-landing.html" target="_blank">[NEW]</a>
+- <a href="morgan-lior-nosso-universo-backup-quiz-login.html" target="_blank">[Nosso Mundo]</a>
 - <a href="vendaai-prototipo.html" target="_blank">[NEW 2]</a>
 
 ---
