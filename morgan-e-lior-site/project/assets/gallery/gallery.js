@@ -1,0 +1,26 @@
+/* Lista de fotos e vídeos. Edita esta lista ao adicionares novos ficheiros. */
+window.GALLERY_ITEMS = [
+  { file: 'Morgan01.jpeg', caption: 'Morgan 01' },
+  { file: 'Lior01.jpeg', caption: 'Lior 01' },
+  { file: 'Morgan02.jpeg', caption: 'Morgan 02' },
+  { file: 'Lior02.jpeg', caption: 'Lior 02' },
+  { file: 'Morgan03.jpeg', caption: 'Morgan 03' },
+  { file: 'Lior03.jpeg', caption: 'Lior 03' },
+  { file: 'Morgan04.jpeg', caption: 'Morgan 04' },
+  { file: 'Lior04.jpeg', caption: 'Lior 04' },
+  { file: 'Morgan05.jpeg', caption: 'Morgan 05' },
+  { file: 'Lior05.jpeg', caption: 'Lior 05' },
+  { file: 'Morgan06.jpeg', caption: 'Morgan 06' },
+  { file: 'Lior06.mp4', caption: 'Lior 06' },
+  { file: 'Morgan07.jpeg', caption: 'Morgan 07' },
+  { file: 'Lior07.mp4', caption: 'Lior 07' },
+  { file: 'Morgan08.jpeg', caption: 'Morgan 08' },
+  { file: 'Lior08.mp4', caption: 'Lior 08' },
+  { file: 'Morgan09.jpeg', caption: 'Morgan 09' },
+  { file: 'Morgan10.jpeg', caption: 'Morgan 10' },
+  { file: 'Morgan11.jpeg', caption: 'Morgan 11' },
+  { file: 'Morgan12.jpeg', caption: 'Morgan 12' },
+  { file: 'Morgan13.mp4', caption: 'Morgan 13' },
+  { file: 'Morgan14.mp4', caption: 'Morgan 14' },
+  { file: 'Morgan15.mp4', caption: 'Morgan 15' }
+];

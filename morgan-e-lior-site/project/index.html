@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="description" content="Morgan &amp; Lior — um pequeno universo, um mês de cada vez.">
+<meta name="theme-color" content="#dacabf">
+<title>Morgan &amp; Lior — Nosso Universo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400&family=Inter:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="dust-field" id="dustField" aria-hidden="true"></div>
+
+<!-- ================= ABERTURA ================= -->
+<div class="intro" id="intro" role="dialog" aria-label="Abertura">
+  <span class="intro-eyebrow" id="introEyebrow">Para Morgan.</span>
+  <p class="intro-line" id="introLine1">Mais um mês.<br>Mais uma escolha.<br>Mais nós.</p>
+  <button class="intro-enter" id="introEnter" type="button">Entrar no nosso universo ↓</button>
+</div>
+
+<!-- ================= NAV ================= -->
+<nav class="nav-top" id="navTop" aria-label="Navegação principal">
+  <span class="nav-brand">Morgan &amp; Lior</span>
+  <ul class="nav-links" id="navLinks">
+    <li><button data-target="hero">Início</button></li>
+    <li><button data-target="tempo">Tempo</button></li>
+    <li><button data-target="regras">Nós</button></li>
+    <li><button data-target="motivos">Motivos</button></li>
+    <li><button data-target="cartas">Cartas</button></li>
+    <li><button data-target="galeria">Galeria</button></li>
+    <li><button data-target="final">Final</button></li>
+  </ul>
+</nav>
+<div class="nav-bottom" id="navBottom" aria-label="Navegação por seções"></div>
+<button class="accessibility-toggle" id="accessibilityToggle" type="button" aria-pressed="false" aria-label="Ativar conforto visual">A+</button>
+
+<main class="universe">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="hero" aria-label="Abertura">
+    <div class="orb-field" aria-hidden="true">
+      <span class="orb"></span><span class="orb"></span><span class="orb"></span>
+      <span class="orb"></span><span class="orb"></span><span class="orb"></span>
+    </div>
+
+    <span class="hero-eyebrow">Um pequeno universo</span>
+    <h1 class="hero-title">Morgan <span class="amp">&amp;</span> Lior</h1>
+    <p class="hero-sub">Mais um mês da nossa história.<br>E ainda existem tantas coisas que quero te dizer.</p>
+
+    <div class="world-wrap" id="worldWrap" tabindex="0" role="button" aria-label="Tocar em Nosso Mundo para revelar uma mensagem" aria-describedby="worldHint">
+      <div class="world-burst" id="worldBurst" aria-hidden="true"></div>
+      <svg class="world-symbol-svg" viewBox="0 0 200 200" aria-hidden="true">
+        <g class="world-squish" id="worldSquish">
+          <circle class="world-globe" cx="100" cy="100" r="72" stroke="var(--color-stone-charcoal)" stroke-width="1"/>
+          <circle class="world-water-ring" cx="100" cy="100" r="68" fill="none" stroke="var(--color-stone-charcoal)" stroke-width="1"/>
+          <g class="world-symbol is-active" data-symbol="circle"><circle cx="100" cy="100" r="57" fill="none" stroke="var(--orb-magenta)" stroke-width="2" opacity=".8"/><circle cx="100" cy="100" r="48" fill="none" stroke="var(--orb-violet)" stroke-width=".8" stroke-dasharray="2 7" opacity=".6"/></g>
+          <g class="world-symbol" data-symbol="heart"><path d="M100 139 C91 130 62 112 62 86 C62 69 75 58 89 58 C96 58 102 62 106 69 C110 62 116 58 124 58 C139 58 149 70 149 85 C149 110 120 130 100 139Z" fill="var(--orb-magenta)" opacity=".9"/></g>
+          <g class="world-symbol" data-symbol="butterfly"><path d="M100 102 C87 83 61 61 52 73 C43 86 61 105 88 112 C68 119 54 137 65 145 C78 154 96 129 100 113Z" fill="var(--orb-violet)" opacity=".88"/><path d="M100 102 C113 83 139 61 148 73 C157 86 139 105 112 112 C132 119 146 137 135 145 C122 154 104 129 100 113Z" fill="var(--orb-magenta)" opacity=".88"/></g>
+          <g class="world-symbol" data-symbol="universe"><circle cx="100" cy="100" r="10" fill="var(--orb-magenta)" opacity=".9"/><ellipse cx="100" cy="100" rx="56" ry="20" fill="none" stroke="var(--orb-violet)" stroke-width="2" opacity=".82"/><ellipse cx="100" cy="100" rx="56" ry="20" fill="none" stroke="var(--orb-teal)" stroke-width="2" opacity=".65" transform="rotate(58 100 100)"/><circle cx="145" cy="88" r="3" fill="var(--orb-gold)"/></g>
+          <g class="world-symbol" data-symbol="infinity"><path d="M56 100 C56 76 83 76 100 100 C117 124 144 124 144 100 C144 76 117 76 100 100 C83 124 56 124 56 100Z" fill="none" stroke="var(--orb-violet)" stroke-width="6" stroke-linecap="round"/></g>
+          <g class="world-symbol" data-symbol="life"><path d="M100 139 C100 119 100 101 100 78" stroke="var(--orb-teal)" stroke-width="3" stroke-linecap="round"/><circle cx="100" cy="78" r="5" fill="var(--orb-gold)"/></g>
+        </g>
+      </svg>
+      <p class="world-label">Nosso mundo</p>
+      <span class="world-hint" id="worldHint">toque para descobrir</span>
+      <p class="world-message" id="worldMessage" aria-live="polite"></p>
+    </div>
+
+    <div class="counter" id="counter" aria-label="Tempo juntos">
+      <div class="counter-unit"><strong id="cYears">0</strong><span>anos</span></div>
+      <div class="counter-unit"><strong id="cMonths">0</strong><span>meses</span></div>
+      <div class="counter-unit"><strong id="cDays">0</strong><span>dias</span></div>
+      <div class="counter-unit"><strong id="cHours">00</strong><span>horas</span></div>
+      <div class="counter-unit"><strong id="cMinutes">00</strong><span>min</span></div>
+      <div class="counter-unit"><strong id="cSeconds">00</strong><span>seg</span></div>
+    </div>
+    <p class="hero-since">Desde 20 de maio de 2026.</p>
+  </section>
+
+  <!-- ================= MINI JOGO ================= -->
+  <section id="quiz" aria-label="Mini jogo: quem conhece quem">
+    <span class="eyebrow">01.5 — Um pequeno desafio</span>
+    <h2 class="section-title">Quem conhece quem?</h2>
+    <p class="section-sub">Escolhe quem vai responder. Se errar, o site não te deixa simplesmente perder: ele explica e mostra a resposta certa.</p>
+    <div class="quiz-shell">
+      <div class="quiz-choice-row" role="group" aria-label="Escolher personagem">
+        <button class="quiz-choice" id="chooseLior" type="button">Eu sou Lior</button>
+        <button class="quiz-choice" id="chooseMorgan" type="button">Eu sou Morgan</button>
+      </div>
+      <div class="quiz-card" id="quizCard" aria-live="polite">
+        <div class="quiz-progress"><span id="quizPlayer">Você está jogando</span><span id="quizCount">1 / 100</span></div>
+        <h3 class="quiz-question" id="quizQuestion"></h3>
+        <div class="quiz-options" id="quizOptions"></div>
+        <div class="quiz-feedback" id="quizFeedback">Escolha uma resposta.</div>
+        <div class="quiz-actions">
+          <span class="quiz-score" id="quizScore">0 acertos</span>
+          <button class="quiz-next" id="quizNext" type="button" disabled>Próxima →</button>
+        </div>
+        <div class="quiz-result" id="quizResult" hidden></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= MICRO-PAUSA 1 ================= -->
+  <section aria-label="Curiosidade">
+    <div class="micro-pausa" data-reveal>
+      <span class="mp-label">Você sabia?</span>
+      <p id="curiosity1"></p>
+      <span class="mp-bridge" id="bridge1"></span>
+    </div>
+  </section>
+
+  <!-- ================= NOSSO TEMPO ================= -->
+  <section id="tempo" aria-label="Nosso tempo">
+    <span class="eyebrow">02 — Nosso tempo</span>
+    <h2 class="section-title">Nosso tempo</h2>
+    <p class="section-sub">Não é sobre quantos dias já passaram. É sobre o que fomos construindo em cada um deles.</p>
+    <div class="timeline" id="timelineList"></div>
+  </section>
+
+  <!-- ================= REGRAS ================= -->
+  <section id="regras" aria-label="Regras do nosso amor">
+    <span class="eyebrow">03 — Regras do nosso amor</span>
+    <h2 class="section-title">Regras para nós dois</h2>
+    <p class="section-sub">Não são regras para prender. São lembretes para cuidar.</p>
+    <div class="rules-grid" id="rulesGrid"></div>
+  </section>
+
+  <!-- ================= MICRO-PAUSA 2 ================= -->
+  <section aria-label="Curiosidade">
+    <div class="micro-pausa" data-reveal>
+      <span class="mp-label">Você sabia?</span>
+      <p id="curiosity2"></p>
+      <span class="mp-bridge" id="bridge2"></span>
+    </div>
+  </section>
+
+  <!-- ================= 100 MOTIVOS ================= -->
+  <section id="motivos" aria-label="100 motivos para amar você">
+    <span class="eyebrow">04 — 100 motivos</span>
+    <h2 class="section-title">100 motivos para amar você</h2>
+    <p class="section-sub">Alguns são grandes. Outros são pequenos. Mas todos são seus.</p>
+    <div class="carousel" id="reasonsCarousel">
+      <div class="carousel-track" id="reasonsTrack" tabindex="0" aria-label="Cartão de motivo"></div>
+      <div class="carousel-controls">
+        <button class="carousel-arrow" id="reasonsPrev" aria-label="Motivo anterior">←</button>
+        <span class="carousel-counter"><strong id="reasonsCurrent">01</strong> / 100</span>
+        <button class="carousel-arrow" id="reasonsNext" aria-label="Próximo motivo">→</button>
+      </div>
+    </div>
+    <div class="carousel-progress"><div class="carousel-progress-fill" id="reasonsProgress"></div></div>
+  </section>
+
+  <!-- ================= 100 CARTAS ================= -->
+  <section id="cartas" aria-label="100 cartas de Lior para Morgan">
+    <span class="eyebrow">05 — 100 cartas</span>
+    <h2 class="section-title">100 cartas de Lior para Morgan</h2>
+    <p class="section-sub">Nem tudo que sinto cabe em uma conversa.</p>
+    <div class="carousel" id="lettersCarousel">
+      <div class="carousel-track letters-stage" id="lettersTrack" tabindex="0" aria-label="Carta"></div>
+      <div class="carousel-controls">
+        <button class="carousel-arrow" id="lettersPrev" aria-label="Carta anterior">←</button>
+        <span class="carousel-counter">Carta <strong id="lettersCurrent">01</strong> de 100</span>
+        <button class="carousel-arrow" id="lettersNext" aria-label="Próxima carta">→</button>
+      </div>
+    </div>
+    <div class="carousel-progress"><div class="carousel-progress-fill" id="lettersProgress"></div></div>
+  </section>
+
+  <!-- ================= FLORESCER ================= -->
+  <section id="florescer" aria-label="Florescer">
+    <span class="eyebrow">06 — Florescer</span>
+    <h2 class="section-title">Tudo que é cuidado floresce</h2>
+    <p class="section-sub">Toque no jardim. Cada flor guarda uma frase diferente.</p>
+    <div class="garden-wrap" id="gardenWrap" role="button" tabindex="0" aria-label="Jardim interativo, toque para plantar uma flor">
+      <span class="garden-hint" id="gardenHint">toque em qualquer lugar aqui</span>
+      <div class="garden-ground" aria-hidden="true"></div>
+    </div>
+    <p class="garden-caption" id="gardenCaption"></p>
+    <button class="garden-reset" id="gardenReset" type="button">limpar jardim</button>
+  </section>
+
+  <!-- ================= PEQUENAS FRASES + POESIA ================= -->
+  <section id="frases" aria-label="Pequenas frases e poesia">
+    <span class="eyebrow">07 — Pequenas frases</span>
+    <h2 class="section-title">Coisas que eu gostaria que você lembrasse</h2>
+    <div class="words-carousel">
+      <div class="words-tabs">
+        <button class="words-tab active" id="tabQuotes" data-mode="quotes">frases</button>
+        <button class="words-tab" id="tabPoems" data-mode="poems">versos</button>
+      </div>
+      <div class="words-display">
+        <p class="words-text" id="wordsText" aria-live="polite"></p>
+      </div>
+      <div class="words-dots" id="wordsDots"></div>
+    </div>
+  </section>
+
+  <!-- ================= GALERIA (novo) ================= -->
+  <section id="galeria" aria-label="Galeria de fotos">
+    <span class="eyebrow">08 — Galeria</span>
+    <h2 class="section-title">Nossas fotos</h2>
+    <p class="section-sub">Cada imagem, um pedaço do que já vivemos.</p>
+    <div class="gallery-grid" id="galleryGrid">
+      <!-- preenchido via assets/gallery/gallery.js -->
+    </div>
+  </section>
+
+  <!-- ================= FINAL ================= -->
+  <section class="final" id="final" aria-label="Final">
+    <svg class="final-flower" id="finalFlower" viewBox="0 0 120 120" aria-hidden="true">
+      <path d="M60 108 C 58 78 62 58 60 40" stroke="var(--orb-teal)" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <g id="finalPetals"></g>
+      <circle cx="60" cy="40" r="6" fill="var(--orb-gold)"/>
+    </svg>
+    <p class="final-line" id="finalLine1">Mais um mês.</p>
+    <p class="final-line" id="finalLine2">E ainda escolheria você.</p>
+    <p class="final-line" id="finalLine3">Que venham os próximos.</p>
+    <p class="final-love" id="finalLove">Eu te amo, Morgan.</p>
+    <p class="final-sign" id="finalSign">— Lior</p>
+    <p class="final-footer" id="finalFooter">Nosso universo ainda está sendo escrito.</p>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Morgan &amp; Lior — feito com atenção, um mês de cada vez.</p>
+</footer>
+
+<!-- ================= MÚSICA ================= -->
+<button class="music-fab" id="musicToggleFab" aria-label="Abrir player de música" aria-expanded="false">♫</button>
+<div class="music-panel" id="musicPanel">
+  <p class="music-title">nossa trilha</p>
+  <button class="text-link" id="musicPlayPause" type="button">reproduzir</button>
+  <div class="music-bar"><div class="music-bar-fill" id="musicBarFill"></div></div>
+  <audio id="bgAudio" loop preload="none" src="assets/audio/trilha.mp3"></audio>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="js/data.js"></script>
+<script src="assets/gallery/gallery.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
